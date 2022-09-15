@@ -10,6 +10,7 @@
     <ImageView
         android:id="@+id/nowPlayingMoviePoster"
         android:layout_width="0dp"
+        android:padding="40dp"
         android:layout_height="250dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_percent="0.9"
@@ -21,6 +22,8 @@
         android:id="@+id/nowPlayingMovieDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding="40dp"
+
         android:layout_marginTop="104dp"
         android:text="sdafafds"
         android:textColor="@color/white"
@@ -34,6 +37,8 @@
     <TextView
         android:id="@+id/nowPlayingMovieName"
         android:layout_width="wrap_content"
+        android:padding="40dp"
+
         android:layout_height="wrap_content"
         android:text="sdfasdf"
         android:maxLines = "2"

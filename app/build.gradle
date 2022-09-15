@@ -94,5 +94,8 @@ dependencies {
     //Circle imageview
     implementation 'de.hdodenhof:circleimageview:3.1.0'
 
+    //3d Recyclerview
+    implementation'com.github.sparrow007:carouselrecyclerview:1.2.4'
+
 
 }

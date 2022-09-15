@@ -52,6 +52,11 @@ class MainPageFragment : Fragment() {
             nowPlayingAdapter = NowPlayingAdapter(it)
             binding.horizontalRecyclerview.layoutManager=LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL,false)
             binding.horizontalRecyclerview.adapter = nowPlayingAdapter
+            binding.horizontalRecyclerview.apply {
+                set3DItem(true)
+                setAlpha(true)
+                setInfinite(true)
+            }
         })
     }
     private fun swipeReslesh() {

@@ -18,7 +18,7 @@
 
 
 
-    <androidx.recyclerview.widget.RecyclerView
+        <com.jackandphantom.carouselrecyclerview.CarouselRecyclerview
         android:id="@+id/horizontalRecyclerview"
         android:layout_width="0dp"
         android:layout_height="0dp"
